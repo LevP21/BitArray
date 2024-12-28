@@ -27,6 +27,6 @@
 
 3. **Запуск тестов:**
    ```bash
-   ./build/tests/bit_arr_test
+   ./build/tests/bitarray_tests
    ```
-   *(Для Windows: `bit_arr_test.exe`)*
+   *(Для Windows: `bitarray_tests.exe`)*
