@@ -66,6 +66,9 @@ TEST(BitArray_test, swap)
     EXPECT_EQ(arr.size(), 32);
     EXPECT_EQ(arr.count(), 32);
     EXPECT_TRUE(arr1.empty());
+    arr.swap(arr);
+    EXPECT_EQ(arr.size(), 32);
+    EXPECT_EQ(arr.count(), 32);
 }
 
 TEST(BitArray_test, assignment_operator)
